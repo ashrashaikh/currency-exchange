@@ -5,7 +5,7 @@ a bill in a specified target currency after applying applicable discounts.
 
 ## Discount Rules
 1. **Percentage-based discounts** (applied only once per bill):
-Groceries are excluded from percentage-based discounts.
+   Groceries are excluded from percentage-based discounts.
    - Employee: If the user is an employee of the store, they get a 30% discount.
    - Affiliate: If the user is an affiliate of the store, they get a 10% discount.
    - Customer for 2+ years: If the user has been a customer for over 2 years, they get a 5% discount.
@@ -54,13 +54,13 @@ Groceries are excluded from percentage-based discounts.
 
    > **Generate a Jacoco code coverage report.**
    > `mvn clean verify`
-   > 
+   >
    > This will:
    >> Execute the test cases.
-   >> 
+   >>
    >> Generate a code coverage report in the following location:
    > `target/site/jacoco/index.html`
-   
+
 
 ## API Documentation
 
