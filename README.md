@@ -22,7 +22,7 @@ a bill in a specified target currency after applying applicable discounts.
 ### Setup
 1. **Clone the repository:**
 
-   `git clone https://github.com/your-repo/currency-exchange.git`
+   `git clone https://github.com/ashrashaikh/currency-exchange.git`
 
    `cd currency-exchange`
 
