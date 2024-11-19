@@ -1,0 +1,12 @@
+#spring:
+#  application:
+#    name: currency-exchange
+#  security:
+#    user:
+#      name: ashra
+#      password: ashra123
+
+open.exchange.rate:
+  api:
+    url: https://openexchangerates.org/api/latest.json
+    key: ${OPEN_EXCHANGE_RATE_API_KEY}

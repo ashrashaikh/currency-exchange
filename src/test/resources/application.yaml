@@ -1,0 +1,4 @@
+open.exchange.rate:
+  api:
+    url: https://example.openexchangerates.org/api
+    key: APP_ID
