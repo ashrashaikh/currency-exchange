@@ -24,7 +24,7 @@ a bill in a specified target currency after applying applicable discounts.
 
    `git clone https://github.com/ashrashaikh/currency-exchange.git`
 
-   `cd currency-exchange`
+   Change directory to the currency-exchange repository in your local machine. `cd currency-exchange`
 
 
 2. **Build the application:**
@@ -32,7 +32,7 @@ a bill in a specified target currency after applying applicable discounts.
    `mvn clean install`
 
 
-3. In the Application **Run Configuration** in IntelliJ, add the **OPEN_EXCHANGE_RATE_API_KEY** with your OpenExchangeRate App ID.
+3. In the Application **Run Configuration** VM options in IntelliJ, add the **OPEN_EXCHANGE_RATE_API_KEY** with your OpenExchangeRate App ID.
 
    This value will be picked by `open.exchange.rate.api.key` in the application.yaml file.
    - Example, `-DOPEN_EXCHANGE_RATE_API_KEY=YOUR-APP-ID`
